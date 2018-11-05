@@ -138,6 +138,26 @@ function Album(props) {
 
               <Grid item sm={6} md={4} lg={3}>
                 <Card className={classes.card}>
+                  <a href="https://www.youtube.com/embed/DoXAGbM9KI0" target="_blank" rel="noopener noreferrer">
+                  <CardMedia
+                    className={classes.cardMedia}
+                    title="Reduce"  
+                    image="favicon.ico"                 
+                  />
+                  </a>
+                  <CardContent className={classes.cardContent}>
+                    <Typography gutterBottom variant="h5" component="h2">
+                    Javascript reduce
+                    </Typography>
+                    <Typography>
+                    Tyler showing us .reduce()
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Grid> 
+
+              <Grid item sm={6} md={4} lg={3}>
+                <Card className={classes.card}>
                   <a href="https://www.youtube.com/embed/845wnUGwi8g" target="_blank" rel="noopener noreferrer">
                   <CardMedia
                     className={classes.cardMedia}
